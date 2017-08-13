@@ -12,26 +12,41 @@
 </head>
 <body>
 	
+
+<div class="header">
 	<h1>Star Wars RPG</h1>
 
-	<p id="line1">Choose a Fighter</p>
+	<div><h2 id="restart">New Game</h2></div>
+</div>
+	
+<div id="container">
 
-	<div id="characters">
-		<img id="yoda" class="fighter" src="assets/images/yoda.jpg" alt="">
-		<img id="jengo" class="fighter" src="assets/images/jengo.jpg" alt="">
-		<img id="wampa" class="fighter" src="assets/images/wampa.jpg" alt="">
-		<img id="trooper" class="fighter" src="assets/images/trooper.jpg" alt="">
+	<div class="content">
+
+		<div id="characters">
+			<img id="yoda" class="fighter" src="assets/images/yoda.jpg" alt="">
+			<img id="jengo" class="fighter" src="assets/images/jengo.jpg" alt="">
+			<img id="wampa" class="fighter" src="assets/images/wampa.jpg" alt="">
+			<img id="trooper" class="fighter" src="assets/images/trooper.jpg" alt="">
+		</div>
+
+		<div id="opp"></div>
+	
 	</div>
+		
+	<div id="enemies"></div> 
+
+</div>
+
+<div id="footer">
+	<p id="line1">Choose a Fighter</p>
 
 	<div><h2 id="attack">Attack</h2></div>		
 
-
-	<div id="opp"></div>
-
-	<div id="enemies"></div>
-
+	<div id="stats"><span id="user"></span><span id="other"></span></div>
+</div>
 
 <!-- <script src="assets/javascript/game.js"></script> -->
- <script src="assets/javascript/game2.js"></script>
+<script src="assets/javascript/game2.js"></script>
 </body>
 </html>

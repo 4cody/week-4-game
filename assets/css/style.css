@@ -1,13 +1,14 @@
 body{
-	background: url(../images/silk.jpg)fixed;
+	background: url(https://slack-imgs.com/?c=1&url=https%3A%2F%2Fi.imgur.com%2F6NIohRH.gif)fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 h1{
 	font-family: 'Audiowide', cursive;
 	font-size: 55px;
-	color: #7df058;
+	color:#7df058;
 	text-shadow: 2px 2px #ff0000;
 	
 	position:relative;
@@ -33,17 +34,43 @@ h2,h3,p{
 	    1px 1px 0 #fff;
 }
 
-/* --------------- Character box */
+span{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+
+#footer{
+	position:relative;
+	width:100%;
+	bottom:-230px;
+}
+
+
+#container{
+	width:90%;
+	height:95%;
+	text-align: center;
+	margin:auto;
+}
+
+.header{
+	width:100%;
+	height:90px;
+	background-color: rgba(126,192,238,0.2);
+	margin:auto;
+}
 
 #line1{
 	position:relative;
-	left: 7%;
+	left: -25%;
 }
 
 #characters {
 	position:relative;
 	top:50px;
-	left:7%;
+	left:5%;
 
 	width:auto;
 	height:auto;
@@ -55,10 +82,10 @@ div img{
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 
-	min-height:150px;
-	max-height:150px;
-	min-width:150px;
-	max-width:150px;
+	min-height:120px;
+	max-height:120px;
+	min-width:120px;
+	max-width:120px;
 
 	float:left;
 
@@ -72,7 +99,7 @@ div img{
 }
 
 #opp {
-	position:fixed;
+	position:relative;
 	top:50px;
 	left:30%;
 
@@ -83,9 +110,9 @@ div img{
 }
 
 #enemies {
-	position:fixed;
-	bottom:10px;
-	left:7%;
+	position:relative;
+	bottom:-400px;
+	left:5%;
 
 	width:auto;
 	height:auto;
@@ -93,16 +120,35 @@ div img{
 	text-align: center;
 }
 
+#stats{
+	position:relative;
+	right:0px;
+	bottom:0px;
+
+	width:auto;
+	height:auto;
+	background-color: rgba(126,192,238,0.2);
+}
+
 div h2{
 	color:red;
 	font-size: 30px;
 	position: absolute;
 	left:0;
-	top:30%;
+	top:35%
 }
+
+
+/*  BUTTONS   */
 
 #attack{
 	position:absolute;
-	left:21%;
-	top:300px;
+	left:0;
+	top:230px;
 }
+
+#restart{
+	position:relative;
+	left:0;
+	bottom:0;
+};
