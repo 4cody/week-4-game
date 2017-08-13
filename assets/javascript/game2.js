@@ -104,7 +104,7 @@ $(document).ready(function() {
 			fightCheck();
 			stat();
 		}
-		if(enemy.hp < 0){
+		if(enemy.hp <= 0){
 			if($('#enemies').children().length == 0){
 				alert("You've vanquished all foes!");
 			}else{
