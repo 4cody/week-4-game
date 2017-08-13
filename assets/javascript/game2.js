@@ -55,6 +55,7 @@ $(document).ready(function() {
 			draw();
 			user = jengo;
 			$("#line1").html("Pick an enemy");
+			stat();
 		}
 		else{
 			$(this).appendTo("#opp").addClass("opponent");;
@@ -69,6 +70,7 @@ $(document).ready(function() {
 			draw();
 			user = trooper;
 			$("#line1").html("Pick an enemy");
+			stat();
 		}
 		else{
 			$(this).appendTo("#opp").addClass("opponent");;
@@ -83,6 +85,7 @@ $(document).ready(function() {
 			draw();
 			user = wampa;
 			$("#line1").html("Pick an enemy");
+			stat();
 		}
 		else{
 			$(this).appendTo("#opp").addClass("opponent");
@@ -91,9 +94,9 @@ $(document).ready(function() {
 		}
 	});
 
-	if($('#enemies').children().length == 0 && $('#opp').children().length == 0){
+	// if($('#enemies').children().length == 0 && $('#opp').children().length == 0){
 
-	};
+	// };
 
    //      combat  checks   
 	$("#attack").click(function() {
